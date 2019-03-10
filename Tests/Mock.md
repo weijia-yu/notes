@@ -1,13 +1,18 @@
 # Mock
 
-- dummy object
-  - Never used
-- fake objects
-  - Simple fake databaes getter
-- stub
-  - partial imp for an interface
-- mock object
-  - define the output
+
+
+- A **dummy object** is passed around but never used, i.e., its methods are never called. Such an object can for example be used to fill the parameter list of a method.
+
+- **Fake objects** have working implementations, but are usually simplified. For example, they use an in memory database and not a real database.
+  - Grab from hashmap
+
+- A **stub class** is an partial implementation for an interface or class with the purpose of using an instance of this stub class during testing. Stubs usually don’t respond to anything outside what’s programmed in for the test. Stubs may also record information about calls.
+  -  when (gradebook.gradesFor(student)).thenReturn(grades(8, 6, 10));
+
+- A **mock object** is a dummy implementation for an interface or a class in which you define the output of certain method calls. Mock objects are configured to perform a certain behavior during a test. They typically record the interaction with the system and tests can validate that.
+
+
 
 
 ### Android Mockito
@@ -15,3 +20,25 @@
 - when().thenReturn
 - spy
   - wrap real object
+- Answer
+  - 
+
+
+##### Mockito for callback
+
+
+
+### Android Dagger
+
+
+    步骤1：查找Module中是否存在创建该类的方法。
+    步骤2：若存在创建类方法，查看该方法是否存在参数
+    步骤2.1：若存在参数，则按从步骤1开始依次初始化每个参数
+    步骤2.2：若不存在参数，则直接初始化该类实例，一次依赖注入到此结束
+
+    步骤3：若不存在创建类方法，则查找Inject注解的构造函数，看构造函数是否存在参数
+
+    步骤3.1：若存在参数，则从步骤1开始依次初始化每个参数
+    步骤3.2：若不存在参数，则直接初始化该类实例，一次依赖注入到此结束
+
+

@@ -23,3 +23,22 @@
 - Task.WaitAndUnwrapException
 - every await in MyAsyncMethod should end with ConfigureAwait(false)
 
+### async != thread
+
+- [There Is No Thread](https://blog.stephencleary.com/2013/11/there-is-no-thread.html)
+```java 
+private async void Button_Click(object sender, RoutedEventArgs e)
+{
+  byte[] data = ...
+  await myDevice.WriteAsync(data, 0, data.Length);
+}
+```
+1. I/O Request Packet (IRP).
+2. The device driver receives the IRP
+3. it marks the IRP as “pending” and returns to the OS.
+4. Regardless of the type of I/O request, internally I/O operations issued to a driver on behalf of the application are performed asynchronously
+5. With the IRP “pending”, the OS returns to the library, which returns an incomplete task to the button click event handler, which suspends the async method, and the UI thread continues executing.
+6. The write operation is now “in flight”. How many threads are processing it?
+
+None.
+
