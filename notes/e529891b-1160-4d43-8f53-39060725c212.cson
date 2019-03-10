@@ -1,0 +1,34 @@
+createdAt: "2019-03-07T23:57:41.635Z"
+updatedAt: "2019-03-07T23:59:20.920Z"
+type: "MARKDOWN_NOTE"
+folder: "de93a30cfc4c5db1cd64"
+title: "Export"
+tags: []
+content: '''
+  # Export
+  
+  ### Default Export (export default)
+  
+  You can have one default export per file. When you import you have to specify a name and import like so:
+  ```js
+  import MyDefaultExport from "./MyFileWithADefaultExport";
+  ```
+  
+  ### Named Export (export)
+  
+  With named exports, you can have multiple named exports per file. Then import the specific exports you want surrounded in braces:
+  
+  ```js
+  // ex. importing multiple exports:
+  import { MyClass, MyOtherClass } from "./MyClass";
+  // ex. giving a named import a different name by using "as":
+  import { MyClass2 as MyClass2Alias } from "./MyClass2";
+  
+  // use MyClass, MyOtherClass, and MyClass2Alias here
+  ```
+  
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

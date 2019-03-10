@@ -1,0 +1,60 @@
+{
+  "folders": [
+    {
+      "key": "47e5037b08f42cc61e8a",
+      "color": "#1278BD",
+      "name": "Default"
+    },
+    {
+      "key": "e441ae69397ccf095059",
+      "color": "#B013A4",
+      "name": "Multi-Thread"
+    },
+    {
+      "key": "29c4bb0a20fca66bdcd6",
+      "color": "#E10051",
+      "name": "Markdown"
+    },
+    {
+      "key": "c749c2ad751e8b5e1f09",
+      "color": "#FF8E00",
+      "name": "Git"
+    },
+    {
+      "key": "f2614af8959fe5b7a8d2",
+      "color": "#FF8E00",
+      "name": "Leetcode"
+    },
+    {
+      "key": "d06fa048f0d6ae39bb74",
+      "color": "#E8D252",
+      "name": "Design pattern"
+    },
+    {
+      "key": "b2e3887662cc252b67c3",
+      "color": "#E8D252",
+      "name": "Java"
+    },
+    {
+      "key": "d81d9930d5bc91c46fa5",
+      "color": "#3FD941",
+      "name": "Tests"
+    },
+    {
+      "key": "25e51f699b31432ef622",
+      "color": "#E8D252",
+      "name": "C#"
+    },
+    {
+      "key": "de93a30cfc4c5db1cd64",
+      "color": "#3FD941",
+      "name": "Javascript"
+    },
+    {
+      "key": "1e84427fd688715e0374",
+      "color": "#B013A4",
+      "name": "CS Core"
+    }
+  ],
+  "version": "1.0"
+}

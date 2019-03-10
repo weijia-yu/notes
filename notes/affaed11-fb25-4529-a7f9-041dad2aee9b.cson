@@ -1,0 +1,18 @@
+createdAt: "2019-01-18T18:35:15.105Z"
+updatedAt: "2019-01-18T18:37:23.537Z"
+type: "MARKDOWN_NOTE"
+folder: "d06fa048f0d6ae39bb74"
+title: "Humble Object"
+tags: []
+content: '''
+  # Humble Object
+  
+  ### When do we need it
+  
+  - GUI
+    - Move all controller and view updating lofic into a testable object
+    
+  - 
+'''
+isStarred: false
+isTrashed: false

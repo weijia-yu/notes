@@ -1,0 +1,62 @@
+createdAt: "2019-01-16T22:26:27.257Z"
+updatedAt: "2019-01-17T19:27:52.310Z"
+type: "MARKDOWN_NOTE"
+folder: "c749c2ad751e8b5e1f09"
+title: "Git Object"
+tags: []
+content: '''
+  # Git Object
+  
+  ## Git directory
+  
+  .git/objects
+  .git/objects/info
+  .git/objects/pack
+  
+  1. Store file into git file system
+  ```bash
+  $ echo 'test content' | git hash-object -w --stdin
+  d670460b4b4aece5915caf5c68d12f560a9fe3e4
+  ```
+  
+  2. Read file from git system, using SHA-1
+  
+  ```bash
+  $ git cat-file -p d670460b4b4aece5915caf5c68d12f560a9fe3e4
+  test content
+  ```
+  
+  3. Every time you write to file, it will create new file object
+  ```bash
+  $ echo 'version 1' > test.txt
+  $ git hash-object -w test.txt
+  83baae61804e65cc73a7201a7252750c76066a30
+  
+  $ echo 'version 2' > test.txt
+  $ git hash-object -w test.txt
+  1f7a7a472abf3dd9643fd615f6da379c4acb3e3a
+  
+  $ find .git/objects -type f
+  .git/objects/1f/7a7a472abf3dd9643fd615f6da379c4acb3e3a
+  .git/objects/83/baae61804e65cc73a7201a7252750c76066a30
+  .git/objects/d6/70460b4b4aece5915caf5c68d12f560a9fe3e4
+  
+  ```
+  
+  ### Tree Object
+  
+  storing the filename and also allows you to store a group of files together.
+  - All the content is stored as tree and blob objects, with trees corresponding to UNIX directory entries and blobs corresponding more or less to inodes or file contents.
+  -You can create your own tree. Git normally creates a tree by taking the state of your staging area or index and writing a tree object from 
+  
+  You can add files to current index
+  
+  ```bash
+  git update-index --add --cacheinfo 100644 \\
+    83baae61804e65cc73a7201a7252750c76066a30 test.txt```
+  ``````
+  ### Equivalence to normal git command
+  
+'''
+isStarred: false
+isTrashed: false

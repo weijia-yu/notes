@@ -1,0 +1,27 @@
+createdAt: "2019-02-21T22:58:37.200Z"
+updatedAt: "2019-02-21T23:04:53.693Z"
+type: "MARKDOWN_NOTE"
+folder: "47e5037b08f42cc61e8a"
+title: "|| Default value"
+tags: []
+content: '''
+  # || Default value
+  
+  ```js
+  function eatFruit (fruit) {
+      fruit = fruit || "strawberry";
+      ...
+  }
+  ```
+  
+  
+  ```js
+  function eatFruit (fruit) {
+      if (fruit === undefined) {
+          fruit = "strawberry";
+      }
+      ...
+  }```
+'''
+isStarred: false
+isTrashed: false

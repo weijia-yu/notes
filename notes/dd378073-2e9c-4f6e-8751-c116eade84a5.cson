@@ -1,0 +1,57 @@
+createdAt: "2019-02-21T21:37:16.609Z"
+updatedAt: "2019-02-21T23:58:57.516Z"
+type: "MARKDOWN_NOTE"
+folder: "de93a30cfc4c5db1cd64"
+title: "Type"
+tags: []
+content: '''
+  # Type
+  
+  ### dynamically typed
+  
+  A variable in JavaScript can contain any data. A variable can at one moment be a string and at another be a number:
+  
+  ```js
+  // no error
+  let message = "hello";
+  message = 123456;
+  ``````
+  Programming languages that allow such things are called “dynamically typed”, meaning that there are data types, but variables are not bound to any of them.
+  
+  There are seven basic data types in JavaScript. Here, we’ll cover them in general and in the next chapters we’ll talk about each of them in detail.
+  
+  ### Number
+  
+  + Infinity represents the mathematical Infinity ∞. It is a special value that’s greater than any number.
+  
+  + NaN represents a computational error. It is a result of an incorrect or an undefined mathematical operation, for instance:
+  
+  ### String
+  
+  + no char
+  
+  ### boolean
+  
+  ### null
+  
+  In JavaScript, null is not a “reference to a non-existing object” or a “null pointer” like in some other languages.
+  
+  It’s just a special value which represents “nothing”, “empty” or “value unknown”.
+  
+  ### undefined
+  
+  The meaning of undefined is “value is not assigned”.
+  
+  ### objects
+  
+  + All other types are called “primitive” because their values can contain only a single thing (be it a string or a number or whatever). In contrast, objects are used to store collections of data and more complex entities. 
+  
+  ### difference between function and object
+  
+  Function 可以被执行
+  Function 可以当做 Object 的构造函数，比如当我们使用 new操作符后面跟着一个 Function时，这个 Function会被当成构造函数返回一个对象。 代码如下：
+  
+  构造函数function 有 prototype 属性，而 实例 object 没有 prototype 属性. 代码如下：
+'''
+isStarred: false
+isTrashed: false

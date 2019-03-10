@@ -1,0 +1,13 @@
+createdAt: "2019-02-05T01:06:17.283Z"
+updatedAt: "2019-02-05T01:06:41.777Z"
+type: "MARKDOWN_NOTE"
+folder: "b2e3887662cc252b67c3"
+title: "Countdown latch"
+tags: []
+content: '''
+  # Countdown latch
+  
+  - by using a CountDownLatch we can cause a thread to block until other threads have completed a given task.
+'''
+isStarred: false
+isTrashed: false

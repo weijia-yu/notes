@@ -1,0 +1,14 @@
+createdAt: "2019-03-05T22:24:34.566Z"
+updatedAt: "2019-03-05T23:46:32.202Z"
+type: "MARKDOWN_NOTE"
+folder: "d06fa048f0d6ae39bb74"
+title: "Mediator Pattern"
+tags: []
+content: '''
+  # Mediator Pattern
+  
+  It manages the interaction among objects.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

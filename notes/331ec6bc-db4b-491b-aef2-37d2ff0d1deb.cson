@@ -1,0 +1,55 @@
+createdAt: "2019-01-31T19:35:02.077Z"
+updatedAt: "2019-02-01T22:08:51.065Z"
+type: "MARKDOWN_NOTE"
+folder: "25e51f699b31432ef622"
+title: "Async/await"
+tags: []
+content: '''
+  # Async/await
+  
+  - you can also await the result of a non-async method that returns Task
+  - A non-async method returning Task.FromResult is more efficient than an async method returning a value.
+  - Async methods can return Task<T>, Task, or void. In almost all cases, you want to return Task<T> or Task, and return void only when you have to.
+  - Remember that async is an implementation detail, so interfaces can’t be defined with async. To define an asynchronous method in an interface, you just need to define a method with the same signature, minus the async keyword:
+  - The bottom line is that async constructors are not allowed, so let’s explore some alternatives.
+  - 
+  
+  
+  ### Why async designed like this
+  [The Async CTP "Why Do the Keywords Work THAT Way" Unofficial FAQ](https://blog.stephencleary.com/2011/09/async-ctp-why-do-keywords-work-that-way.html)
+  
+  [Dixin's Blog - Understanding C# async / await (3) Runtime Context](https://weblogs.asp.net/dixin/understanding-c-sharp-async-await-3-runtime-context)
+  
+  [Await, SynchronizationContext, and Console Apps \\| Parallel Programming with .NET](https://blogs.msdn.microsoft.com/pfxteam/2012/01/20/await-synchronizationcontext-and-console-apps/)
+  - Why not return int
+    - Async methods that return a value must have an actual result type of Task<TResult>. So GetValue will show up in IntelliSense as returning Task<TResult> (this would also be true for the object browser, Reflector, etc).
+  
+  ### Context
+  
+  ### Call async from sync
+  - Task.WaitAndUnwrapException
+  - every await in MyAsyncMethod should end with ConfigureAwait(false)
+  
+  ### async != thread
+  
+  - [There Is No Thread](https://blog.stephencleary.com/2013/11/there-is-no-thread.html)
+  ```java 
+  private async void Button_Click(object sender, RoutedEventArgs e)
+  {
+    byte[] data = ...
+    await myDevice.WriteAsync(data, 0, data.Length);
+  }
+  ```
+  1. I/O Request Packet (IRP).
+  2. The device driver receives the IRP
+  3. it marks the IRP as “pending” and returns to the OS.
+  4. Regardless of the type of I/O request, internally I/O operations issued to a driver on behalf of the application are performed asynchronously
+  5. With the IRP “pending”, the OS returns to the library, which returns an incomplete task to the button click event handler, which suspends the async method, and the UI thread continues executing.
+  6. The write operation is now “in flight”. How many threads are processing it?
+  
+  None.
+  
+  
+'''
+isStarred: false
+isTrashed: false

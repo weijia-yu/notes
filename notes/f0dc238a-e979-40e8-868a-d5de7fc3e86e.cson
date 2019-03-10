@@ -1,0 +1,13 @@
+createdAt: "2019-01-21T05:10:21.962Z"
+updatedAt: "2019-01-21T05:13:25.325Z"
+type: "MARKDOWN_NOTE"
+folder: "f2614af8959fe5b7a8d2"
+title: "Time Complexity"
+tags: []
+content: '''
+  # Time Complexity
+  
+  ### 1. Most case, the only better than O(n) is O(logn)
+'''
+isStarred: false
+isTrashed: false
