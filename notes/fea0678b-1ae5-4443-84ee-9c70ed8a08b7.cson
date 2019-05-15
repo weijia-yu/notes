@@ -1,0 +1,32 @@
+createdAt: "2019-04-18T21:13:33.079Z"
+updatedAt: "2019-04-18T21:25:11.604Z"
+type: "MARKDOWN_NOTE"
+folder: "de93a30cfc4c5db1cd64"
+title: "Microtask queue"
+tags: []
+content: '''
+  # Microtask queue
+  
+  #### 宏任务
+  
+  setTimeout
+  setInterval
+  I/O
+  script代码块
+  
+  #### 微任务
+  
+  nextTick
+  callback
+  Promise
+  process.nextTick
+  Object.observe
+  MutationObserver
+  
+  
+  + 微任务在宏任务之前的执行，先执行 执行栈中的内容 执行后 清空微任务
+  + 每次取一个宏任务 就去清空微任务，之后再去取宏任务
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

@@ -54,6 +54,21 @@
       "key": "1e84427fd688715e0374",
       "color": "#B013A4",
       "name": "CS Core"
+    },
+    {
+      "key": "7aec3295b9e1310be0d0",
+      "color": "#E10051",
+      "name": "Inheritance/Interface"
+    },
+    {
+      "key": "380964b3e0a5c8fa4450",
+      "color": "#FF8E00",
+      "name": "Tutorials"
+    },
+    {
+      "key": "53592d511ecebe3c5f90",
+      "color": "#30D5C8",
+      "name": "Vim"
     }
   ],
   "version": "1.0"

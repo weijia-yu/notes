@@ -1,5 +1,5 @@
 createdAt: "2019-02-07T01:33:53.616Z"
-updatedAt: "2019-02-25T21:07:12.891Z"
+updatedAt: "2019-05-06T23:07:40.632Z"
 type: "MARKDOWN_NOTE"
 folder: "de93a30cfc4c5db1cd64"
 title: "Hoisting"
@@ -7,6 +7,8 @@ tags: []
 content: '''
   # Hoisting
   
+  
+  - Part of the compilation phase was to find and associate all declarations with their appropriate scopes.
   
   ### Execution context
   
@@ -64,6 +66,24 @@ content: '''
   
   foo(22);
   ```
+  
+  ```js
+  console.log(typeof c)
+  var c = function b(){
+      console.log("a");
+  }
+  function c() {
+      console.log("aa");
+  }```
+  
+  output: function
+  
+  // 1. creation stage: 
+  //    a. function c is created
+  //    b. var scan, found c already exist, ignore
+  
+  
 '''
 isStarred: false
 isTrashed: false
+linesHighlighted: []

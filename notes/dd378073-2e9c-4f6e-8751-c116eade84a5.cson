@@ -1,5 +1,5 @@
 createdAt: "2019-02-21T21:37:16.609Z"
-updatedAt: "2019-02-21T23:58:57.516Z"
+updatedAt: "2019-04-15T23:27:10.568Z"
 type: "MARKDOWN_NOTE"
 folder: "de93a30cfc4c5db1cd64"
 title: "Type"
@@ -19,6 +19,50 @@ content: '''
   Programming languages that allow such things are called “dynamically typed”, meaning that there are data types, but variables are not bound to any of them.
   
   There are seven basic data types in JavaScript. Here, we’ll cover them in general and in the next chapters we’ll talk about each of them in detail.
+  
+  ### Object
+  
+  **Object Data Properties Have Attributes**
+  Each data property (object property that store data) has not only the name-value pair, but also 3 attributes (the three attributes are set to true by default):
+  — **Configurable Attribute**: Specifies whether the property can be deleted or changed.
+  — **Enumerable**: Specifies whether the property can be returned in a for/in loop.
+  — **Writable**: Specifies whether the property can be changed.
+  
+  ### Create Objects
+  
+  1. Object literals
+  
+  ```js
+  // This is an empty object initialized using the object literal notation
+  var myBooks = {};
+  
+  // This is an object with 4 items, again using object literal
+  var mango = {
+  color: "yellow",
+  shape: "round",
+  sweetness: 8,
+  
+  howSweetAmI: function () {
+  console.log("Hmm Hmm Good");
+  }
+  }
+  ```
+  
+  2. Object Constructor
+  
+  ```js
+  var mango =  new Object ();
+  mango.color = "yellow";
+  mango.shape= "round";
+  mango.sweetness = 8;
+  
+  mango.howSweetAmI = function () {
+  console.log("Hmm Hmm Good");
+  }
+  ```
+  
+  
+  
   
   ### Number
   
@@ -55,3 +99,4 @@ content: '''
 '''
 isStarred: false
 isTrashed: false
+linesHighlighted: []

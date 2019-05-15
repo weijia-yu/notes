@@ -1,0 +1,49 @@
+createdAt: "2019-05-03T22:25:10.246Z"
+updatedAt: "2019-05-06T23:03:59.956Z"
+type: "MARKDOWN_NOTE"
+folder: "de93a30cfc4c5db1cd64"
+title: "Scope"
+tags: []
+content: '''
+  # Scope
+  
+  
+  Lex-Time
+  
+  
+  
+  ### Function scope
+  
+  we can take any snippet of code and wrap a function around it, and that effectively "hides" any enclosed variable or function declarations from the outside scope inside that function's inner scope.
+  
+  
+  ### Anonymous vs. Named
+  
+  + let is block scope
+  + let will not hoist to the entire scope of the block they appear in
+  
+  ### Let loops
+  
+  ```js
+  for (let i=0; i<10; i++) {
+  	console.log( i );
+  }
+  
+  console.log( i ); // ReferenceError
+  ```
+  
+  ==>
+  
+  ```js
+  {
+  	let j;
+  	for (j=0; j<10; j++) {
+  		let i = j; // re-bound for each iteration!
+  		console.log( i );
+  	}
+  }
+  ```
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

@@ -1,0 +1,23 @@
+createdAt: "2019-05-09T00:13:48.416Z"
+updatedAt: "2019-05-09T00:35:52.644Z"
+type: "MARKDOWN_NOTE"
+folder: "b2e3887662cc252b67c3"
+title: "Weak Reference"
+tags: []
+content: '''
+  # Weak Reference
+  
+  ### Strong reference
+  Java has by default 4 types of references: strong, soft, weak and phantom.
+  
+  ### Weak reference
+  
+  ### SoftReference 
+  
+  as a stronger WeakReference
+  all soft references to softly-reachable objects are guaranteed to be cleared before a JVM throws an OutOfMemoryError.
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
