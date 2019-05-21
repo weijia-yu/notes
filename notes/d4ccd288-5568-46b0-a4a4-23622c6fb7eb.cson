@@ -1,0 +1,23 @@
+createdAt: "2019-04-30T21:58:37.839Z"
+updatedAt: "2019-04-30T22:03:26.284Z"
+type: "MARKDOWN_NOTE"
+folder: "de93a30cfc4c5db1cd64"
+title: "Equality"
+tags: []
+content: '''
+  # Equality
+  
+  The proper way to characterize them is that == checks for value equality with coercion allowed, and === checks for value equality without allowing coercion
+  
+  + If either value (aka side) in a comparison could be the true or false value, avoid == and use ===.
+  + If either value in a comparison could be one of these specific values (0, "", or [] -- empty array), avoid == and use ===.
+  + In all other cases, you're safe to use ==. Not only is it safe, but in many cases it simplifies your code in a way that improves readability.
+  
+  
+  
+  You should take special note of the == and === comparison rules if you're comparing two non-primitive values, like objects (including function and array). Because those values are actually held by reference, both == and === comparisons will simply check whether the references match, not anything about the underlying values.
+  + **arrays are by default coerced to string**
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

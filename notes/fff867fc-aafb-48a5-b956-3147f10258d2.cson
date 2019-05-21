@@ -1,0 +1,17 @@
+createdAt: "2019-03-18T18:17:50.682Z"
+updatedAt: "2019-03-18T18:23:46.199Z"
+type: "MARKDOWN_NOTE"
+folder: "c749c2ad751e8b5e1f09"
+title: "Save username and password"
+tags: []
+content: '''
+  # Save username and password
+  
+  ```bash
+  git config credential.helper store
+  ```
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

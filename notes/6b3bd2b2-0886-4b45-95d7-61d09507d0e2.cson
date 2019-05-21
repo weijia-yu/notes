@@ -1,0 +1,24 @@
+createdAt: "2019-04-15T22:25:44.671Z"
+updatedAt: "2019-04-15T22:30:18.022Z"
+type: "MARKDOWN_NOTE"
+folder: "de93a30cfc4c5db1cd64"
+title: "Let vs Var"
+tags: []
+content: '''
+  `Let` vs `Var`
+  
+  **Description**
+  
+  `let` gives you the privilege to declare variables that are limited in scope to the block, statement of expression unlike var.
+  
+  `var` is rather a keyword which defines a variable globally regardless of block scope.
+  
+  
+  
+  `let` variables cannot be re-declared while `var `variable can be re-declared in the same scope.
+  
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

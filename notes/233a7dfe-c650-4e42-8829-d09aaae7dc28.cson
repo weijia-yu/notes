@@ -1,0 +1,25 @@
+createdAt: "2019-04-30T23:48:19.150Z"
+updatedAt: "2019-04-30T23:51:01.802Z"
+type: "MARKDOWN_NOTE"
+folder: "de93a30cfc4c5db1cd64"
+title: "Strict mode"
+tags: []
+content: '''
+  # Strict mode
+  
+  
+  ### 1
+  One key difference (improvement!) with strict mode is disallowing the implicit auto-global variable declaration from omitting the var:
+  
+  function foo() {
+  	"use strict";	// turn on strict mode
+  	a = 1;			// `var` missing, ReferenceError
+  }
+  
+  foo();
+  
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

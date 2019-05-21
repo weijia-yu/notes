@@ -1,0 +1,31 @@
+createdAt: "2019-04-30T21:56:54.733Z"
+updatedAt: "2019-04-30T21:57:42.629Z"
+type: "MARKDOWN_NOTE"
+folder: "47e5037b08f42cc61e8a"
+title: "Truthy & Falsy"
+tags: []
+content: '''
+  # Truthy & Falsy
+  
+  **The specific list of "falsy" values in JavaScript is as follows:**
+  
+  "" (empty string)
+  0, -0, NaN (invalid number)
+  null, undefined
+  false
+  
+  
+  **Any value that's not on this "falsy" list is "truthy." Here are some examples of those:**
+  
+  "hello"
+  42
+  true
+  [ ], [ 1, "2", 3 ] (arrays)
+  { }, { a: 42 } (objects)
+  function foo() { .. } (functions)
+  
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

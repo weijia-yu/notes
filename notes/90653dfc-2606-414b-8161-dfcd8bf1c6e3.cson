@@ -1,0 +1,50 @@
+createdAt: "2019-04-28T23:05:30.101Z"
+updatedAt: "2019-04-30T20:53:41.890Z"
+type: "MARKDOWN_NOTE"
+folder: "47e5037b08f42cc61e8a"
+title: "Avatar sdk is not a part of pai bot"
+tags: []
+content: '''
+  1. Avatar sdk is not a part of pai bot
+     Avatar SDK is the basement of any project which needs to display avatar. It has 2d-3d, face tracking, celebrity, tts and visual speech. Clients can choose any combinations of these features. For example, in PAI news, it is using celebrity and tts visual speech features from avatar sdk.
+     
+     
+  2. PAI bot is not a sdk
+    It is an application. Other clients who have their own application have no way to include it. For example, huachuang pays us to include our avatar with tts and visual speech into their own app, since pai bot is an application, they cannot integrate it. Instead, avatar sdk is built for this purpose, we have sent our documentation to them and they are happy about the integration.
+    
+    
+    3. Avatar SDK should be a part of pai bot
+      Celebrity and TTS are only one feature of avatar sdk, we also have 2d to 3d and face tracking. We also We already have the full documentation. Softbank and huachaung are currently using our sdk. Why do we need to do the repetitive work for the same function. 
+      
+      
+    4. PAI news will use pai bot
+       PAI bot is an application and we cannot include into PAI news, another application. Right now PAI news is using avatar sdk. In pai bot, backend has a great design for dynamically retrieving celebrity avatars, we can totoally connect that part to avatar sdk celebrity tts feature.
+       
+       
+    5. Subodh is developing, you should know the front end problem
+  Subodh did ask me some specific technial questions, but I am not involved in the project. Actually I am just given the access to  code last week and then found this issue. I was not introduced the big picture of this project.
+       
+       
+    Conclusion:
+       I really like the idea, and the backend provides a great design for configuring celebrity avatars. Honestly, from a perspective of developers and for the company's benefit, it makes more sense if we can make the pai bot builder service avaialble to avatar sdk and also make it compatible with user's custom avatars. ..front end...etc
+       
+      
+    Applause:
+      1. I really like the idea of storing celebrity avatars at the server. The backend has provided a great infrastructure. Avatar SDK can connect with it for the celebrity and tts portion.
+  
+  
+  
+  
+  
+  Hey Nikhil, In PAI bot group, I saw Eman mentioned you ask how pai bot can be the foundation architecture for PAI news. This is very confusing to me. 
+  1. Right now PAI news has already used Avatar SDK as the foundation, which are also used in paiyo, softbank and huachuang. Using PAI bot needs to change a lot of current code and also has much repetitive work.
+  2. I was given the access to the codebase just right this week and then I took a look, PAI bot is not a SDK, but an application. Other applications such as PAI news are not able to integrate it.
+  
+  Avartar SDK provides a flexible way to clients to integrate our avatar and avatar related technology. It will be the basement for all applications which need avatar. Since every app goes through avatar sdk, 
+  it will collect all kinds of content from users. News from pai news, financial news from Huachuang, political news from cctv. We definitely can organize it and make it a news platform like youtube. Maybe huachuang can even be a starting point for this :) They have some financial news
+  
+  It is also in the avatar sdk roadmap to support dynamically loading celebrity avatars. We are also making celebrity and normal user's PAI compatible so that clothes and all the things can be shared.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: true

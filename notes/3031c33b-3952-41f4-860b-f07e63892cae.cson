@@ -1,0 +1,22 @@
+createdAt: "2019-04-15T22:33:44.476Z"
+updatedAt: "2019-04-15T22:35:25.592Z"
+type: "MARKDOWN_NOTE"
+folder: "47e5037b08f42cc61e8a"
+title: "Function vs block scope"
+tags: []
+content: '''
+  Function vs block scope
+  
+  var variables are ‘function scope.’ What does this mean? It means they are only available inside the function they’re created in, or if not created inside a function, they are ‘globally scoped.’
+  
+  If var is defined inside a function and I subsequently try to call it outside the function, it won’t work.
+  
+  
+  
+  What is the block? A block is a set of opening and closing curly brackets.
+  
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

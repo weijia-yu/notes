@@ -1,0 +1,35 @@
+createdAt: "2019-04-30T16:15:27.547Z"
+updatedAt: "2019-04-30T20:53:38.932Z"
+type: "MARKDOWN_NOTE"
+folder: "47e5037b08f42cc61e8a"
+title: "First of all, sorry for interrupting your presentation yesterday, I was kinda confused. Today I will provide more insights from the front end standpoint. I don't wanna force you make a decision, if you find it reasonable, you can adopt my suggestion. If not, I trust you are a great engineer and as a team, I respect your decision."
+tags: []
+content: '''
+  First of all, sorry for interrupting your presentation yesterday, I was kinda confused. Today I will provide more insights from the front end standpoint. I don't wanna force you make a decision, if you find it reasonable, you can adopt my suggestion. If not, I trust you are a great engineer and as a team, I respect your decision. 
+  
+  First let me introduce the current roadmap of avatar sdk
+  
+  v1( now )
+  consumer PAI
+  celebrity PAI
+  TTS/Visual speech
+  
+  v2
+  face tracking
+  consumer and celebrity PAI integration
+  avatar optimization
+  multiple versions of avatar
+  
+  v3
+  react native
+  avatar beutification
+  cartoon
+  usage tracking and control integration
+  
+  
+  To be honest, my feeling right now, you are a backend expert. Imagine you already have an awesome backend celebrity infrastructure. Right now in pai news, I need to dynamically switch avatars, so I write a local service implementing it and tell you to deploy on server. First, it didn't reuse current server great user system and existing code, second the functionality is just redundant. And worse, I might write this code using node js and wanna connect to your java service. To be honest, I don't think this project thinks through the target audience. Until last week I mentioned to Justin why huachuang cannot use pai bot, then you understand why android and ios developers cannot use it. If the project goes into the old direction. After months of development, finally you will find out you just have a unity package and only unity devbelopers can use it.
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: true

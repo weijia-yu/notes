@@ -1,0 +1,18 @@
+createdAt: "2019-03-18T18:17:50.813Z"
+updatedAt: "2019-03-18T18:18:38.115Z"
+type: "MARKDOWN_NOTE"
+folder: "c749c2ad751e8b5e1f09"
+title: "Git rebase"
+tags: []
+content: '''
+  # Git rebase
+  
+  ### Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebasing is most useful and easily visualized in the context of a feature branching workflow. The general process can be visualized as the following:
+  
+  ![02.svg?cdnVersion=ld](https://wac-cdn.atlassian.com/dam/jcr:e4a40899-636b-4988-9774-eaa8a440575b/02.svg?cdnVersion=ld)
+  
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

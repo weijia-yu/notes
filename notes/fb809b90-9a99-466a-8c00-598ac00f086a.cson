@@ -1,0 +1,16 @@
+createdAt: "2019-04-30T21:07:22.783Z"
+updatedAt: "2019-04-30T21:08:05.502Z"
+type: "MARKDOWN_NOTE"
+folder: "de93a30cfc4c5db1cd64"
+title: "pass by value"
+tags: []
+content: '''
+  # pass by value
+  
+  Javascript is always pass by value, but when a variable refers to an object (including arrays), the "value" is a reference to the object.
+  
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

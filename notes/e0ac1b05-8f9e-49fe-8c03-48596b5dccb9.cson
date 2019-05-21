@@ -1,0 +1,20 @@
+createdAt: "2019-04-15T23:07:24.657Z"
+updatedAt: "2019-04-15T23:52:56.842Z"
+type: "MARKDOWN_NOTE"
+folder: "de93a30cfc4c5db1cd64"
+title: "Expression vs statement"
+tags: []
+content: '''
+  Expression vs statement
+  
+  `expression` can generate a value
+  
+  - arguments
+  - rvalue
+  
+  
+  `statement`
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

@@ -1,0 +1,19 @@
+createdAt: "2019-03-13T18:08:14.738Z"
+updatedAt: "2019-03-13T18:09:30.501Z"
+type: "MARKDOWN_NOTE"
+folder: "25e51f699b31432ef622"
+title: "Abstract"
+tags: []
+content: '''
+  # Abstract
+  
+  ### Abstract class
+  
+  + Cannot be instantiated
+  + Cannot combine with `sealed` keyword ( make the class not be able to be inherited )
+  
+  ### Abstract method
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

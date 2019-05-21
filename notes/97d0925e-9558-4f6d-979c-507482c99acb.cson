@@ -1,0 +1,23 @@
+createdAt: "2019-03-18T20:42:24.043Z"
+updatedAt: "2019-03-18T21:01:08.373Z"
+type: "MARKDOWN_NOTE"
+folder: "7aec3295b9e1310be0d0"
+title: "Inheritance"
+tags: []
+content: '''
+  # Inheritance
+  
+  #### 1. Derived class inherits base class
+  
+  |   |  C# |  Java |
+  |---|---|---|
+  | Base class methods overriden | virtual  |   |
+  | Derived class methods overriding| | no keyword ( @override annotation) |
+  | Upcast| allowed|allowed |
+  | Downcast| |(DerivedClass) |
+  | Upcast and then DownCast| |ClassCastException|
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

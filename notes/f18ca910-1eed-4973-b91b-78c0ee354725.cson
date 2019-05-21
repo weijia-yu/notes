@@ -1,0 +1,21 @@
+createdAt: "2019-05-09T00:59:24.438Z"
+updatedAt: "2019-05-09T01:06:02.395Z"
+type: "MARKDOWN_NOTE"
+folder: "b2e3887662cc252b67c3"
+title: "GC"
+tags: []
+content: '''
+  # GC
+  
+  ### Reference counting
+  
+  count +1 if referenced
+  
+  cons: loop
+  
+  
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
