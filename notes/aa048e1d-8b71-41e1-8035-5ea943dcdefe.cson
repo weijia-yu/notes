@@ -1,0 +1,67 @@
+createdAt: "2019-05-18T22:20:31.745Z"
+updatedAt: "2019-05-18T23:25:46.487Z"
+type: "MARKDOWN_NOTE"
+folder: "f2614af8959fe5b7a8d2"
+title: "Dynamic programmign"
+tags: []
+content: '''
+  # Dynamic programmign
+  
+  
+  ### Overview
+  
+  + Divide and conquer with cache
+  
+  ### Condition
+  
+  + Calculate max and min
+  + Check possibility
+  + Calculate nums
+  
+  ### When we cannot use dp
+  
+  + Ask to calculate specific case instead of nums of cases
+  + Input is an unordered list instead of a consecutive list ( Exception: backpack dp)
+  + brute force algorithm is already n^2, n^3
+  
+  ### Steps
+  
+  ### Types
+  
+  + 
+  
+  ### 多重循环
+  
+  
+  ### 记忆化搜索
+  
+  
+  ### Coordinate dp
+  
+  + Matrix
+  + Array
+  + A way to iterate
+  
+  Example:
+  
+  Minimum path sum
+  
+  + State
+  + Function
+  + Intialization
+  + Answer
+  
+  Unique Path
+  
+  + State
+  + Function 
+    + f[x][y] = f[x-1][y] + f[x][y-1] 
+  + Intialization
+    + f[0][i] = 0
+    + f[i][0] = 0
+  + Answer
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

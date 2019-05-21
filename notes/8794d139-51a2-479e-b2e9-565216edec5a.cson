@@ -1,0 +1,46 @@
+createdAt: "2019-05-14T14:25:29.072Z"
+updatedAt: "2019-05-15T15:06:24.887Z"
+type: "MARKDOWN_NOTE"
+folder: "f2614af8959fe5b7a8d2"
+title: "Binary Tree"
+tags: []
+content: '''
+  # Binary Tree
+  
+  ### Time complexity
+  
+  Height: n - log(n)
+  
+  
+  
+  
+  
+  ### Tree traversal
+  
+  
+  #### Preorder
+  
+  #### Inorder
+  
+  #### Postorder
+  
+  
+  
+  
+  ### Divide conquer
+  
+  
+  
+  ### DFS
+  
+  1. Recuresive
+      a. Traverse
+      b. Divide and conquer
+  2. Non-Recursive
+  
+  
+  ### BFS
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

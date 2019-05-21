@@ -1,0 +1,41 @@
+createdAt: "2019-05-19T04:51:14.992Z"
+updatedAt: "2019-05-19T18:40:23.913Z"
+type: "MARKDOWN_NOTE"
+folder: "f2614af8959fe5b7a8d2"
+title: "Linked list"
+tags: []
+content: '''
+  # Linked list
+  
+  ## Dummy Node
+  
+  1. Remove the duplicates from sorted list
+  
+  ## Basics
+  
+  
+  #### Insert Node
+  
+  #### Remove a node
+  
+  #### Reverse
+  
+  #### Merge
+  
+  #### Middle of a linked list
+  
+  ## Two pointers
+  
+  #### reverse
+  
+  #### cycle
+  
+  
+  
+  ## Merge k sorted list
+  
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

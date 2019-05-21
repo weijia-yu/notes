@@ -1,0 +1,46 @@
+createdAt: "2019-05-19T01:57:09.341Z"
+updatedAt: "2019-05-19T02:32:48.567Z"
+type: "MARKDOWN_NOTE"
+folder: "e40b65fb5fdfec4f7a6a"
+title: "Valuation"
+tags: []
+content: '''
+  # Valuation
+  
+  | Company  | Valuation  | Revenue | Net Profit
+  |---|---|---|---|
+  | Google  | 809.52B  | 36.3B| 6.7B|
+  | FB  | 528.94B  | 15B | 2.4B|
+  | Amazon  |  	920.17B | 60B | 3.6B |
+  | Alibaba  |  439.56B | 12.2B | 1.3B |
+  | Microsoft  |  981.38B | 30B | 8.8B |
+  | Tencent  | 441.787B  | 13B | 4B|
+  | Baidu  | 	44.83B  | 3.5B | |
+  | Uber  |  70.51B | 3B | |
+  | Lyft  |  15.63B | 0.7B | |
+  | Sqaure  | 27.62B  | 1B | -38M|
+  | Snapchat  | 15.4B  | 320M | -310M |
+  | Netflix  | 154.97B  | 4.5B | 0.3B |
+  | Disney  | 243.03B  | 15B | 2.7B |
+  | Twitter  | 	28.82B  | 0.9B | 0.2B |
+  | Slack  |  7B | | |
+  | Robinhood  | 5.6B  | | |
+  | Airbnb  | 35B  | | |
+  | Turo  | x  | | |
+  | Unity  | 6B  | | |
+  | Epic  | 15B  | | |
+  | gitlab  | 1.1B  | | |
+  
+  
+  Google
+  FB
+  Amazon
+  Alibaba
+  Tencent
+  Baidu
+  Uber
+  Lyft
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

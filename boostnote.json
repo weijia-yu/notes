@@ -54,6 +54,11 @@
       "key": "1e84427fd688715e0374",
       "color": "#B013A4",
       "name": "CS Core"
+    },
+    {
+      "key": "e40b65fb5fdfec4f7a6a",
+      "color": "#3FD941",
+      "name": "Companies"
     }
   ],
   "version": "1.0"
